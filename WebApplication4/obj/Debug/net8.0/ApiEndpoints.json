@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "WebApplication4.Controllers.FutokController",
+    "Method": "GetAllRunners",
+    "RelativePath": "api/runners",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication4.Controllers.FutokController",
+    "Method": "GeById",
+    "RelativePath": "api/runners/byId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication4.Controllers.FutokController",
+    "Method": "GetRunnerWithAllData",
+    "RelativePath": "api/runners/RunnerWithAllData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
