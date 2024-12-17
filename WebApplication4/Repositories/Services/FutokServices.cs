@@ -24,7 +24,6 @@ namespace WebApplication4.Repositories.Services
 
             return female;
         }
-
         public async Task<List<Futok>> AllRunners()
         {
             var runners = await _context.Futoks.ToListAsync();
@@ -42,7 +41,5 @@ namespace WebApplication4.Repositories.Services
             var runner = await _context.Futoks.Include(Futo => Futo.Eredmenyeks).FirstOrDefaultAsync(futo => futo.Fid == id);
             return runner;
         }
-
-        
     }
 }
